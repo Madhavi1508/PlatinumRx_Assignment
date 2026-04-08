@@ -9,3 +9,5 @@ def convert_minutes(minutes):
             return f"{hours} hrs {remaining_minutes} minutes"
     else:
         return f"{remaining_minutes} minutes"
+t=int(input())
+print(convert_minutes(t))
